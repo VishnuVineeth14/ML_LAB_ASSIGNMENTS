@@ -78,5 +78,5 @@ The goal of this repository is to:
 
 ## Author
 
-**Vishnu Vineeth**  
+**Chitraju Vishnu Vineeth**  
 GitHub: [VishnuVineeth14](https://github.com/VishnuVineeth14)
