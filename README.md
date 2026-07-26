@@ -1,22 +1,20 @@
 # ML Lab Assignments
 
-This repository contains my **Machine Learning lab coursework**, including:
+A polished collection of my **Machine Learning lab assignments**, notebook implementations, and course project work.
 
-- 📘 **Assignment folders** (weekly/experiment-wise submissions)
-- 🧪 **Lab exercises** and notebook implementations
-- 🚀 **Course project work** (mini-projects and/or final project components)
+## Overview
 
-The repository is maintained as a structured record of my progress throughout the course.
+This repository documents my progress throughout the ML lab course and includes:
 
----
+- Weekly or experiment-wise assignment submissions
+- Jupyter Notebook implementations of lab exercises
+- Data preprocessing, modeling, and evaluation workflows
+- Project work, observations, and results
 
 ## Repository Structure
 
-A typical structure of this repository will look like:
-
 ```text
 ML_LAB_ASSIGNMENTS/
-│
 ├── Assignment_01/
 ├── Assignment_02/
 ├── Assignment_03/
@@ -29,52 +27,35 @@ ML_LAB_ASSIGNMENTS/
 └── README.md
 ```
 
-> Folder names may vary slightly based on course requirements and submission format.
+> Folder names may vary depending on course requirements and submission format.
 
----
-
-## Contents
-
-This repo may include:
-
-- Jupyter Notebooks (`.ipynb`) for experiments and model implementation
-- Data preprocessing and feature engineering workflows
-- Classical ML algorithms (regression, classification, clustering, etc.)
-- Model evaluation metrics and visualizations
-- Project documentation, observations, and results
-
----
-
-## Tools & Technologies
+## Technologies Used
 
 - **Python**
 - **Jupyter Notebook**
 - Common ML libraries such as:
   - `NumPy`
   - `Pandas`
-  - `Matplotlib` / `Seaborn`
+  - `Matplotlib`
+  - `Seaborn`
   - `scikit-learn`
 
----
+## What You'll Find Here
+
+- Interactive notebooks for machine learning experiments
+- Classical ML techniques such as regression, classification, and clustering
+- Data preprocessing and feature engineering steps
+- Model evaluation metrics, plots, and results
+- Supporting documentation for assignments and projects
 
 ## Purpose
 
-The goal of this repository is to:
+The repository is intended to:
 
-- Organize all ML lab assignments in one place
+- Keep all ML lab work organized in one place
 - Track practical learning and implementation progress
-- Maintain project work done as part of the course
-- Serve as a reference for revision and future development
-
----
-
-## Notes
-
-- Each assignment folder is self-contained with code, outputs, and observations.
-- Project folders may be updated incrementally as work progresses.
-- This is an academic repository intended for learning and documentation.
-
----
+- Preserve project work completed as part of the course
+- Serve as a useful reference for revision and future work
 
 ## Author
 
