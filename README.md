@@ -40,6 +40,9 @@ ML_LAB_ASSIGNMENTS/
 ├── Assignment3/       Linear and regularized regression analysis
 ├── Assignment4/       Spam classification with Logistic Regression and SVM
 ├── Assignment5/       Decision Tree and Random Forest comparison
+├── Assignment6/       Ensemble classification with Bagging, Boosting, and Stacking
+├── Assignment7/       Customer churn prediction with PCA and model comparison
+├── Assignment8/       Human Activity Recognition dataset exploration
 └── README.md          Repository overview
 ```
 
@@ -107,6 +110,30 @@ F1-score, and ROC-AUC analysis.
 The folder contains `wdbc.data`, `wdbc.names`, the notebook, and the associated
 report materials. Detailed information is available in the [Assignment5 README](Assignment5/README.md).
 
+### F. Assignment 6: Ensemble Classification
+
+[Assignment6](Assignment6/) compares Bagging, AdaBoost, and Stacking classifiers
+on the Wisconsin Diagnostic Breast Cancer dataset. The workflow uses stratified
+cross-validation and evaluates the selected models with classification metrics,
+confusion matrices, and ROC/AUC analysis. See the [Assignment6 README](Assignment6/README.md).
+
+### G. Assignment 7: Customer Churn Prediction
+
+[Assignment7](Assignment7/) studies customer churn prediction with standardized
+features, PCA-based dimensionality reduction, hyperparameter tuning, and model
+comparison. The notebook evaluates nine individual classifiers and a Stacking
+ensemble using cross-validation, F1-score, ROC/AUC, and precision-recall analysis.
+XGBoost is an additional dependency. See the [Assignment7 README](Assignment7/README.md).
+
+### H. Assignment 8: Human Activity Recognition Exploration
+
+[Assignment8](Assignment8/) loads and explores the UCI Human Activity Recognition
+dataset. It combines train and test partitions, maps activity labels, checks
+data quality, and plots activity frequencies. This notebook currently contains
+data loading and exploratory analysis rather than model training. The required
+`UCI HAR Dataset/` directory is not included in the repository; see the
+[Assignment8 README](Assignment8/README.md) for the expected files.
+
 ## IV. Software Requirements
 
 The experiments use:
@@ -117,15 +144,16 @@ The experiments use:
 - Matplotlib and Seaborn for visualization
 - SciPy where required by Assignment 2
 - scikit-learn for preprocessing, modeling, validation, and metrics
+- XGBoost for Assignment 7
 
 The common dependencies can be installed with:
 
 ```bash
-pip install numpy pandas matplotlib seaborn scipy scikit-learn
+pip install numpy pandas matplotlib seaborn scipy scikit-learn xgboost
 ```
 
-SciPy is required by Assignment 2; the remaining assignments primarily use the
-other packages listed above.
+SciPy is required by Assignment 2 and XGBoost is required by Assignment 7; the
+remaining assignments primarily use the other packages listed above.
 
 ## V. Execution Guidelines
 

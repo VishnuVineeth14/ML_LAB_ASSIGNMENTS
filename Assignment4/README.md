@@ -3,7 +3,7 @@
 ## Overview
 This assignment studies binary spam/ham classification using both linear and kernel-based classifiers. It includes EDA, preprocessing, baseline modeling, hyperparameter optimization, cross-validation, and comparative analysis.
 
-## Notebook
+## Notebooks
 
 1. `Experiment_4_Spambase.ipynb`
 - Builds a complete classification pipeline on Spambase features.
@@ -30,8 +30,9 @@ This assignment studies binary spam/ham classification using both linear and ker
 - metrics: `accuracy_score`, `precision_score`, `recall_score`, `f1_score`, `confusion_matrix`, `classification_report`
 
 ## Data Files
-- Notebook expects: `spambase.csv`
+- `spambase_csv.csv`
 
 ## Notes
-- Ensure `spambase.csv` is available in this folder before running the notebook.
+- Keep `spambase_csv.csv` in this folder before running the notebook. If the
+	notebook refers to `spambase.csv`, update that path to match the file name.
 - Quick install command: `pip install numpy pandas matplotlib seaborn scikit-learn`.

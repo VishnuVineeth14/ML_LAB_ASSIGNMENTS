@@ -3,7 +3,7 @@
 ## Overview
 This assignment focuses on binary email classification (spam vs ham) using probabilistic and distance-based models. The notebook includes EDA, preprocessing, model training, hyperparameter tuning, and comparative evaluation.
 
-## Notebook
+## Notebooks
 
 1. `Experiment_2_Spambase_NaiveBayes_KNN (2).ipynb`
 - Performs classification on the Spambase dataset.

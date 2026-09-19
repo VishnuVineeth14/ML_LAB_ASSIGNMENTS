@@ -3,7 +3,7 @@
 ## Overview
 This assignment implements and compares classical regression models for loan amount prediction. It includes careful preprocessing, feature engineering for mixed data types, hyperparameter tuning, and performance comparison using multiple regression metrics.
 
-## Notebook
+## Notebooks
 
 1. `Experiment_3_Regression_Analysis.ipynb`
 - Performs regression modeling with `LinearRegression`, `Ridge`, `Lasso`, and `ElasticNet`.

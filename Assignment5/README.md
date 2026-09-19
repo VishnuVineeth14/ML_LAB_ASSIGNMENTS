@@ -3,7 +3,7 @@
 ## Overview
 This assignment presents a comparative classification study between Decision Tree and Random Forest on the Wisconsin Diagnostic Breast Cancer dataset. The notebook includes data preparation, cross-validation-based hyperparameter comparison, final model evaluation, and ROC/AUC analysis.
 
-## Notebook
+## Notebooks
 
 1. `Experiment_5.ipynb`
 - Loads and preprocesses the WDBC dataset.
