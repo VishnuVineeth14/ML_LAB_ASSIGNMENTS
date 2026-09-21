@@ -43,6 +43,7 @@ ML_LAB_ASSIGNMENTS/
 ├── Assignment6/       Ensemble classification with Bagging, Boosting, and Stacking
 ├── Assignment7/       Customer churn prediction with PCA and model comparison
 ├── Assignment8/       Human Activity Recognition dataset exploration
+├── Assignment9/       Perceptron and MLP comparison
 └── README.md          Repository overview
 ```
 
@@ -134,6 +135,15 @@ data loading and exploratory analysis rather than model training. The required
 `UCI HAR Dataset/` directory is not included in the repository; see the
 [Assignment8 README](Assignment8/README.md) for the expected files.
 
+### I. Assignment 9: Perceptron and MLP Comparison
+
+[Assignment9](Assignment9/) compares a single-layer Perceptron with a
+Multi-Layer Perceptron (MLP) for image classification. The experiment uses
+the English handwritten-character dataset, prepares image data for learning,
+trains both neural-network approaches, and compares their classification
+performance. See the notebook and accompanying report in the assignment
+folder for implementation details.
+
 ## IV. Software Requirements
 
 The experiments use:
@@ -153,7 +163,9 @@ pip install numpy pandas matplotlib seaborn scipy scikit-learn xgboost
 ```
 
 SciPy is required by Assignment 2 and XGBoost is required by Assignment 7; the
-remaining assignments primarily use the other packages listed above.
+remaining assignments primarily use the other packages listed above. Assignment
+9 may additionally require the neural-network and image-processing packages
+imported by its notebook.
 
 ## V. Execution Guidelines
 
@@ -164,6 +176,10 @@ remaining assignments primarily use the other packages listed above.
    evaluation state is initialized consistently.
 5. Review the assignment-specific README for dataset, dependency, and filename
    requirements.
+
+The large `Assignment8/UCI HAR Dataset/` directory is excluded through
+`.gitignore` to avoid repository size warnings. Download or extract the UCI
+HAR dataset locally in that location before running the Assignment 8 notebook.
 
 ## VI. Scope and Reproducibility
 
